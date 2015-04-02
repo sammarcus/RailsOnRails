@@ -1,0 +1,111 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ //= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
+ //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
+ //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
+ //= depend_on_asset "bootstrap/glyphicons-halflings-regular.svg"
+ */
+@import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Carme);
+
+/* Some Style from the Bootstrap Default Theme */
+body {
+  padding-bottom: 70px; 
+  font-family: 'Carme', sans-serif;
+
+}
+
+body {
+
+  padding-bottom: 70px; 
+  background: url(bg.jpg) center top;
+  background-attachment: local;
+  
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.search {
+
+  color: #000;
+  background-color: #fff;
+  padding: 20px;
+  border-top: 1px solid #ccc;
+  border-radius: 20px;
+  margin-top: 70px;
+}
+
+
+.listing {
+  border-radius: 14px;
+  background-color: #eee;
+  padding: 20px;
+  border-top: 2px solid #ccc;
+  border-radius: 80px;
+
+}
+
+.listing img {
+  border: 2px solid #000;
+      margin: 0 auto;
+   
+}
+
+
+h1, h2 {
+  color: #000
+}
+
+.loading {
+  color: #fff
+}
+
+iframe {
+
+ margin-top: 60px;
+  
+}
+
+.results {
+   margin-top: 80px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+  border-bottom: 2px solid #5780ff
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: black;
+}
+
+
+
+
+

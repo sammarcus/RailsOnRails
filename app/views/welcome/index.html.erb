@@ -1,0 +1,68 @@
+
+<div id="index" class="container">
+  <div class="col-md-12">
+<iframe width="1200px" height="770px" src="//www.youtube.com/embed/yRvJylbSg7o" frameborder="0" allowfullscreen></iframe>
+</div>
+<br>
+<div class="col-md-6 col-md-offset-3">
+<h2 class="loading text-center"><strong>Your results are loading...</strong></h2>
+</div>
+<br><br>
+<div class="row centered">
+  <div class="col-md-6 col-md-offset-3 text-center">
+
+    <div class="search">
+    <%= form_tag(search_path, method: 'get', class: "navbar-form", role: "search") do %>
+     <h4>Where will you be commuting?</h4>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="e.g. The Flatiron School" name="q">
+        </div>
+            <br>
+            <br>
+      <h4>How much are you willing to pay?</h4>
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="e.g. 1500" name="x">
+            </div>
+
+<br>
+<br>
+      <h4>What's longest you'll commute for?</h4>
+
+
+<select name="t" class="form-control">
+  <option value="900">15 minutes</option>
+  <option value="1200">20 minutes</option>
+  <option value="1500">25 minutes</option>
+  <option value="1800">30 minutes</option>
+  <option value="2400">40 minutes</option>
+  <option value="2700">45 minutes</option>
+  <option value="3600">One hour</option>
+</select>
+
+
+
+<br><br>
+        <div class="input-group-btn">
+                <button class="btn btn-lg btn-info" type="submit">Search</button>
+    <% end %>
+
+
+
+
+
+        </div>
+  </div>
+
+
+
+
+
+  </div>
+
+
+</div>
+</div>
+
+
+
+
